@@ -1,0 +1,117 @@
+/*styling the body
+*/
+
+*{
+	box-sizing: border-box;
+
+}
+
+body{
+	font-family: 'BIZ UDMincho', serif;
+	background-image: url("body.jpeg");
+	font-size: 1.4em;
+
+}
+/*styling button */
+nav{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+button{
+	background-color: #9E6800;
+	width: 110px;
+	height: 40px;
+	border-radius: 20%;
+
+}
+
+/*styling the pet */
+
+header{
+	position:relative;
+
+	width: 300px;
+	height: 300px;
+	top:-130px;
+	left: 40%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+#pet{
+	width: 256px;
+	height: 256px;
+	border: 1px solid lightcoral;
+	border-radius: 30%;
+}
+
+.maltese{
+	background-image: url("maltese.jpeg");
+}
+
+.bassotto{
+	background-image: url("bassotto.jpeg");
+
+
+}
+
+.pincher{
+	background-image: url("pincher.png");
+
+
+}
+
+.pastore{
+	background-image: url("pastore.jpeg");
+
+
+}
+
+.buldog{
+	background-image: url("buldog.jpeg");
+
+
+}
+
+
+/*styling the name */
+
+.name{
+
+	width: 220px;
+	height: 30px;
+	border: 1px solid blue;
+	background-color: #B4943F;
+	border-radius: 20px;
+	text-align: center;
+
+}
+
+
+
+/*styling the objects */
+
+section {
+	height:180px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: flex-end;
+
+}
+
+.objects{
+
+	height: 100px;
+	width: 100px;
+	border: 1px solid blue;
+	margin: 5px;
+	border-radius: 10%;
+	background-color:#7191B2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
