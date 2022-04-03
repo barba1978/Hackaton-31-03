@@ -102,7 +102,7 @@ pet.addEventListener("drop",dragDrop)
 
 let intervallFood=null
 function main(){
-	intervallFood=setInterval(barkforFood,60000)
+	intervallFood=setInterval(barkforFood,30000)
 
 	function barkforFood(){
 		audioFood.play();}}
@@ -112,7 +112,7 @@ function main(){
 		}
 		let intervalDrink=null
 		function main1(){
-			intervalDrink=setInterval(barkforDrink,80000)
+			intervalDrink=setInterval(barkforDrink,40000)
 
 			function barkforDrink(){
 				audioDrink.play()
@@ -124,7 +124,7 @@ function main(){
 			let intervalWalk=null
 
 			function main2(){
-				intervalWalk=setInterval(barkforWalk, 100000)
+				intervalWalk=setInterval(barkforWalk, 60000)
 
 				function barkforWalk(){
 
@@ -149,7 +149,7 @@ function main(){
 
 					let intervalTrain=null
 					function main4(){
-						intervalTrain=setInterval(intervaltoTrain,60000)
+						intervalTrain=setInterval(intervaltoTrain,180000)
 
 						function intervaltoTrain(){
 							audioTrain.play()
